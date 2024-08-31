@@ -4,8 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div id="forms">
+        <h2>Formulário de Contato</h2>
+        <h6>Preencha todos os campos.</h6>
+        
+        <form action="" method="post">
+            <label for="nome">Nome :<input type="text" name="nome" id="nome" required minlength="3" maxlength="30" placeholder="Nome completo"/></label>
+            <br>
+
+            <label for="email">Email :<input type="email" name="email" id="email" required minlength="5" maxlength="60" placeholder="E-mail válido"/></label>
+            <br>
+
+            <label for="assunto">Assunto : <select nome="assunto" id="assunto" class="assunto">
+                <option value=""></option>
+                <option value="Duvidas do produto">Dúvidas do produto</option>
+                <option value="Atraso na entrega">Atraso na entrega</option>
+            </select></label>
+            
+            <label for="mensagem" style="margin-right: 4px;">Mensagem :
+                <textarea name="mensagem" id="mensagem"cols="40" rows="5" placeholder="Sua mensagem" style="resize: none;" class="mensagem"></textarea></label>
+            <br>
+            <input type="button" value="Enviar" class="button">
+
+        </form>
+    </div>
 </body>
 </html>

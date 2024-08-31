@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+* {
+    border: 0%;
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+div#forms {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 15px;
+    width: 400px;
+    height: auto;
+    text-align: center;
+    background-color: #8B4512;
+    box-shadow: black 2px 2px 10px;
+}
+
+h2 {
+    padding-bottom: 8px;
+}
+
+h6 {
+    padding-bottom: 5px;
+    border-bottom: black solid 2px;
+}
+
+h2, h6, label {
+    text-shadow: black 1.5px 1.5px 0.9px;
+}
+
+form {
+    padding-top: 7px;
+    width: 100%;
+}
+
+label {
+    font-size: 13px;
+}
+
+input, .assunto, .mensagem {
+    height: 20px;
+    width: 73%;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #F3D9B5;
+    box-shadow: black 3px 2px 4px;
+}
+
+.assunto {
+    height: 30px;
+    color: rgba(0, 0, 0, 0.785);
+    margin-right: 15px;
+    width: 74%;
+    font-weight: bold;
+}
+
+.mensagem {
+    height: 90px;
+    width: 70%;
+    margin-right: 7%;
+    float: right;
+}
+
+option {
+    color: rgba(0, 0, 0, 0.785);
+    font-weight: bold;
+}
+
+.button {
+    background-color: black;
+    width: 85px;
+    border-radius: 5px;
+    padding-bottom: 18px;
+    float: left;
+    margin-left: 75px;
+    font-weight: bold;
+    text-shadow: none;
+    box-shadow: black 0px 0px 0px;
+}
+
